@@ -1,0 +1,7 @@
+#pragma once
+
+#ifdef INSTALL_PREFIX
+#define DATA_DIR INSTALL_PREFIX "/share/lextsuggest"
+#else
+#define DATA_DIR "@CMAKE_BINARY_DIR@/bin/data"
+#endif
