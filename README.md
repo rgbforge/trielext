@@ -5,7 +5,7 @@ unoptimized TRIE word search
 - CMake >= 3.14
 - C++17 compiler
 
-- ## Configuration
+## Configuration
 
 Edit `src/config.hpp.in` to modify install paths and data locations.
 
